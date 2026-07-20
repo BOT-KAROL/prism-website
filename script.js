@@ -57,7 +57,7 @@ submitBtn.addEventListener('click', async () => {
         serverMsg.style.color = '#f1c40f';
         serverMsg.textContent = 'Wysyłanie...';
 
-        const response = await fetch('https://Wykurwistastronka.onrender.com/api/save-data', {
+        const response = await fetch('https://prism-backend-ch5h.onrender.com/api/save-data', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(savedData)
